@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compiler-css": "sass sass/style.scss public/CSS/style.css",
-    "compiler-css:dev": "sass --watch sass/style.scss CSS/style.css"
+    "compiler-css": "sass sass/styles.scss public/CSS/style.css",
+    "compiler-css:dev": "sass --watch src/sass/styles.scss public/CSS/style.css"
   },
   "keywords": [],
   "author": "",
